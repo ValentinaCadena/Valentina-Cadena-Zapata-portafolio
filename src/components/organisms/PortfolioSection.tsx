@@ -22,7 +22,7 @@ const PortfolioSection = () => {
           <div key={index} className="min-w-[280px] bg-white rounded shadow p-4">
             <img src={project.image} alt={project.title} className="h-40 w-full object-cover rounded" />
             <h3 className="mt-2 font-semibold">{project.title}</h3>
-            <p className="text-sm text-gray-600">{project.description}</p>
+            <p className="text-sm text-black">{project.description}</p>
             <button className="mt-2 text-blue-600 hover:underline">Saber más</button>
           </div>
         ))}

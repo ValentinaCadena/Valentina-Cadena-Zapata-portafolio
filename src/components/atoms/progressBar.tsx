@@ -12,7 +12,7 @@ const ProgressBar = ({ name, number, color }: ProgressBarProps) => {
         <p>{number}</p>
       </div>
       <div className="w-full h-2 bg-gray-200 rounded">
-        <div className={`w-[${number}] h-full bg-${color}-500 rounded`}></div>
+        <div className={`w-[${number}] h-full bg-${color}-500 rounded border-gray-200 border-2`}></div>
       </div>
     </div>
   );

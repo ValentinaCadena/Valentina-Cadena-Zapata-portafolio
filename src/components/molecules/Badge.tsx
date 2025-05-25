@@ -1,6 +1,6 @@
 // src/components/molecules/Badge.tsx
 import React from 'react';
-import Icon from '@/components/atoms/Icon';
+import Icon from '@/components/atoms/iconText';
 import clsx from 'clsx';
 
 type BadgeProps = {

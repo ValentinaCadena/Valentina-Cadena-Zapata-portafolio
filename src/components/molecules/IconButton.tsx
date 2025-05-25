@@ -1,7 +1,7 @@
 // src/components/molecules/IconButton.tsx
 import React from 'react';
 import Button from '@/components/atoms/Button';
-import Icon from '@/components/atoms/Icon';
+import Icon from '@/components/atoms/iconText';
 
 type IconButtonProps = {
   icon: string;

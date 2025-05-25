@@ -7,7 +7,7 @@ const projects = [
     image: '/project1.jpg'
   },
   {
-    title: 'App de Tareas',
+    title: 'App de Tareas y entregas',
     description: 'Gestión de tareas con React y Firebase.',
     image: '/project2.jpg'
   }

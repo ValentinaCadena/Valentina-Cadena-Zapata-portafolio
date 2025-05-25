@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@iconify/tailwind4;
 
 :root {
   --background: #ffffff;

@@ -36,10 +36,10 @@ const Sidebar = () => {
       <div className="w-full">
         <p className="font-semibold text-black">Extra Skills</p>
         <div className="list-disc list-inside text-left text-gray-500">
-          <IconText icon='mdi:crop-square' text='Bootstrap, Materialize'></IconText>
-          <IconText icon='mdi:crop-square' text='Stylus, Sass, Less'></IconText>
-          <IconText icon='mdi:crop-square' text='Gulp, Webpack, Grund'></IconText>
-          <IconText icon='mdi:crop-square' text='GIT Knowledge'></IconText>
+          <IconText icon='mdi:code-block-square' text='Bootstrap, Materialize'></IconText>
+          <IconText icon='mdi:code-block-square' text='Stylus, Sass, Less'></IconText>
+          <IconText icon='mdi:code-block-square' text='Gulp, Webpack, Grund'></IconText>
+          <IconText icon='mdi:code-block-square' text='GIT Knowledge'></IconText>
         </div>
       </div>
     </div>

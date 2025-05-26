@@ -1,4 +1,3 @@
-// src/components/atoms/Input.tsx
 import React from 'react';
 
 type InputProps = {

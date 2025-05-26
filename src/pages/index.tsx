@@ -16,7 +16,7 @@ const HomePage = () => {
         <Sidebar />
 
       {/* Contenido principal */}
-      <main className="flex-1 ml-[20px] mr-[80px] px-8 py-10 space-y-12">
+      <main className="flex-1 ml-[10px] mr-[110px] px-8 py-10 space-y-12">
         <ProfileSection />
         <KnowledgeSection />
         <EducationSection />
@@ -25,7 +25,7 @@ const HomePage = () => {
       </main>
 
       {/* Sidebar derecho para redes sociales */}
-      <aside className="w-[60px] fixed top-0 right-0 h-full flex flex-col items-center justify-center space-y-6 z-10">
+      <aside className="w-24 fixed top-0 right-0 h-full flex flex-col items-center justify-center space-y-6 z-10">
         <SocialSidebar />
       </aside>
     </div>

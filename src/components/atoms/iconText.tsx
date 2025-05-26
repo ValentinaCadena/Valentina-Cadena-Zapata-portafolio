@@ -7,8 +7,8 @@ interface IconTextProps {
 
 const IconText = ({ icon, text }: IconTextProps) => {
   return (
-    <div>
-        <Icon icon={icon} width="25" height="25" />
+    <div className="flex gap-2">
+        <Icon icon={icon} width="25" height="25" color="violet"/>
       <span>{text}</span>
   </div>
   )

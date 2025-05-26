@@ -13,12 +13,10 @@ const HomePage = () => {
   return (
     <div className="flex bg-[#F4F4F4] min-h-screen">
       {/* Sidebar izquierdo */}
-      <aside className="w-[300px] bg-white shadow-md fixed top-0 left-0 h-full z-10">
         <Sidebar />
-      </aside>
 
       {/* Contenido principal */}
-      <main className="flex-1 ml-[300px] mr-[80px] px-8 py-10 space-y-12">
+      <main className="flex-1 ml-[20px] mr-[80px] px-8 py-10 space-y-12">
         <ProfileSection />
         <KnowledgeSection />
         <EducationSection />

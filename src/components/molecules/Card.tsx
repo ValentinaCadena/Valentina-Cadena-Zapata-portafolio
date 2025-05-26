@@ -17,11 +17,11 @@ const Card = ({ text, textButton, icon, className }: CardProps) => {
 
   return (
     <div className={className}>
-      <h1 className="text-black text-5xl font-bold">
+      <h1 className="text-[#2b2b2b] text-5xl font-bold">
         Soy Valentina Cadena, Desarrolladora{" "}
         <span className={`text-purple-700`}>Front-end</span>
       </h1>
-      <p className="py-10 text-gray-500">{text}</p>
+      <p className="py-10 text-[#767676]">{text}</p>
       <button
         onClick={handleOpen}
         className="bg-purple-400 text-black p-4 flex gap-2 items-center rounded hover:bg-purple-500 transition"

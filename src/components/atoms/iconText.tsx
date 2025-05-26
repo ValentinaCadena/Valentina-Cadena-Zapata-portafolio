@@ -1,4 +1,4 @@
-import { Icon } from "@iconify/react";
+import { Icon } from "@iconify/react/dist/iconify.js";
 
 interface IconTextProps {
   icon: string; // Nombre del ícono, por ejemplo, 'search', 'user', etc.

@@ -24,7 +24,7 @@ const Card = ({ text, textButton, icon, className }: CardProps) => {
       <p className="py-10 text-gray-500">{text}</p>
       <button
         onClick={handleOpen}
-        className="bg-purple-400 text-black p-4 flex gap-2 items-center rounded hover:bg-purple-500"
+        className="bg-purple-400 text-black p-4 flex gap-2 items-center rounded hover:bg-purple-500 transition"
       >
         <span>{textButton}</span>
         <Icon icon={icon}></Icon>

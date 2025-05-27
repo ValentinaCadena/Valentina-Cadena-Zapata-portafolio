@@ -5,7 +5,7 @@ const KnowledgeSection = () => {
   return (
     <div>
       <div className="text-center">
-        <h1 className="text-[#2b2b2b] text-4xl font-bold">My Knowledge</h1>
+        <h1 className="text-[#2b2b2b] text-4xl font-bold">Conocimiento</h1>
         <p className="text-[#767676] p-10 mx-72">
           En ésta sección podrás ver todo el conocimiento que tengo dividido en
           diferentes áreas, todo en torno al desarrollo web y la creación de
@@ -22,7 +22,7 @@ const KnowledgeSection = () => {
         <KnowledgeBox
           title="UI/UX Design"
           text="Mobile App, Website Design"
-          icon="mdi:code"
+          icon="typcn:pencil"
           iconColor="indigo"
         ></KnowledgeBox>
         <KnowledgeBox
@@ -32,8 +32,8 @@ const KnowledgeSection = () => {
           iconColor="indigo"
         ></KnowledgeBox>
         <KnowledgeBox
-          title="Web Development"
-          text="Blog, E-Commerce"
+          title="Game Design"
+          text="Character Design, Props & Objects"
           icon="icon-park-outline:game-ps"
           iconColor="indigo"
         ></KnowledgeBox>

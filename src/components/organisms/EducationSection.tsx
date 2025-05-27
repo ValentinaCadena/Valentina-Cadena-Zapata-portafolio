@@ -6,7 +6,7 @@ const EducationSection = () => {
     <div>
       <div className="text-center">
         <h1 className="text-[#2b2b2b] text-4xl font-bold">Educación</h1>
-        <p className="text-[#767676] p-10 mx-72">
+        <p className="text-[#767676] px-10 pb-10 pt-6 mx-72">
           En ésta sección podrás ver un resumen de mis estudios realizados,
           instituciones donde me gradué y certificados que saqué.
         </p>

@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react";
-import ModalInfo from "../organisms/ModalInfo";
+import ModalInfo from "../molecules/ModalInfo";
 import { useState } from "react";
 
 interface CardProps {

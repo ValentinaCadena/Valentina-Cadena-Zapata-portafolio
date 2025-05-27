@@ -16,7 +16,7 @@ const HomePage = () => {
         <Sidebar />
 
       {/* Contenido principal */}
-      <main className="flex-1 ml-[10px] mr-[110px] px-8 py-10 space-y-12">
+      <main className="flex-1 ml-[10px] mr-[110px] px-8 space-y-10">
         <ProfileSection />
         <KnowledgeSection />
         <EducationSection />

@@ -6,7 +6,7 @@ const KnowledgeSection = () => {
     <div>
       <div className="text-center">
         <h1 className="text-[#2b2b2b] text-4xl font-bold">Conocimiento</h1>
-        <p className="text-[#767676] p-10 mx-72">
+        <p className="text-[#767676] px-10 pb-10 pt-6 mx-72">
           En ésta sección podrás ver todo el conocimiento que tengo dividido en
           diferentes áreas, todo en torno al desarrollo web y la creación de
           interfaces amigables para el usuario.

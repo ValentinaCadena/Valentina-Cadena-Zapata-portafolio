@@ -16,7 +16,7 @@ const HomePage = () => {
         <Sidebar />
 
       {/* Contenido principal */}
-      <main className="px-2 sm:px-4 md:px-6 lg:px-8 space-y-10 w-[92%] sm:w-[91%] md:w-[91%] lg:w-[71%] lg:ml-[23%] xl:w-full xl:ml-[25%] 2xl:ml-[20%]">
+      <main className="px-2 sm:px-4 md:px-6 lg:px-8 space-y-10 w-[92%] sm:w-[91%] md:w-[91%] lg:w-[71%] lg:ml-[23%] xl:w-full xl:ml-[20%] 2xl:ml-[15%]">
         <ProfileSection />
         <KnowledgeSection />
         <EducationSection />

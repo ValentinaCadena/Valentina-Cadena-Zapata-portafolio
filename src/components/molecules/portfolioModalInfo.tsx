@@ -8,6 +8,7 @@ interface PortfolioModalInfoProps {
   image1?: string;
   image2?: string;
   image3?: string;
+  image4?: string;
   tech1?: string;
   tech2?: string;
   tech3?: string;
@@ -24,6 +25,7 @@ const PortfolioModalInfo = ({
   image1,
   image2,
   image3,
+  image4,
   tech1,
   tech2,
   tech3,
@@ -64,6 +66,7 @@ const PortfolioModalInfo = ({
           <img src={image1} alt="Imagen 1" className="rounded" />
           <img src={image2} alt="Imagen 2" className="rounded" />
           <img src={image3} alt="Imagen 3" className="rounded" />
+          <img src={image4} alt="Imagen 4" className="rounded" />
         </div>
         <div className="flex space-x-4 mt-4">
           <a

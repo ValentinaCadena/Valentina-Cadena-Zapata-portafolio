@@ -11,6 +11,7 @@ interface PortfolioCardProps {
   image1?: string;
   image2?: string;
   image3?: string;
+  image4?: string;
   tech1?: string;
   tech2?: string;
   tech3?: string;
@@ -27,6 +28,7 @@ const PortfolioCard = ({
   image1,
   image2,
   image3,
+  image4,
   tech1,
   tech2,
   tech3,
@@ -65,6 +67,7 @@ const PortfolioCard = ({
           image1={image1}
           image2={image2}
           image3={image3}
+          image4={image4}
           tech1={tech1}
           tech2={tech2}
           tech3={tech3}

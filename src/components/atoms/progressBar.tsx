@@ -1,7 +1,6 @@
 type ProgressBarProps = {
   name: string;
   number: number;
-  color: string;
 };
 
 const ProgressBar = ({ name, number }: ProgressBarProps) => {

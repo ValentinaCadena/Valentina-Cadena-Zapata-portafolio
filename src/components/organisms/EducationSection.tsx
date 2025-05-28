@@ -16,23 +16,23 @@ const EducationSection = () => {
           title="Universidad de Antioquia"
           leftText="Estudiante"
           rightText="Oct 2019 - Actualidad"
-          rightTitle="Certificate of Web Development"
-          rightDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae unde facere deleniti eius tenetur explicabo doloribus natus, saepe delectus cumque quasi laborum nostrum ab maxime dolorum quibusdam, magni, quidem assumenda!"
+          rightTitle="Ingeniería de Sistemas"
+          rightDescription="Ingeniero de Sistemas con formación en el diseño, desarrollo y gestión de soluciones tecnológicas, con enfoque en la optimización de procesos mediante software, redes y sistemas de información. "
         ></EducationBox>
         <EducationBox
           className="border-y-2"
-          title="Universidad de Antioquia"
+          title="Colegio María Auxiliadora"
           leftText="Estudiante"
-          rightText="Oct 2019 - Actualidad"
-          rightTitle="Certificate of Web Development"
-          rightDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae unde facere deleniti eius tenetur explicabo doloribus natus, saepe delectus cumque quasi laborum nostrum ab maxime dolorum quibusdam, magni, quidem assumenda!"
+          rightText="Ene 2008 - Nov 2018"
+          rightTitle="Educación básica y media, bachillerato"
+          rightDescription="Bachiller Académico con formación integral en ciencias, humanidades y competencias básicas, orientado al desarrollo del pensamiento crítico y el aprendizaje continuo."
         ></EducationBox>
         <EducationBox
-          title="Universidad de Antioquia"
+          title="AceleraTI"
           leftText="Estudiante"
-          rightText="Oct 2019 - Actualidad"
-          rightTitle="Certificate of Web Development"
-          rightDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae unde facere deleniti eius tenetur explicabo doloribus natus, saepe delectus cumque quasi laborum nostrum ab maxime dolorum quibusdam, magni, quidem assumenda!"
+          rightText="Abr 2025 - Actualidad"
+          rightTitle="Certificado de Desarrollo Backend"
+          rightDescription="Curso de Desarrollo Backend enfocado en la construcción de la lógica del servidor, manejo de bases de datos y creación de API RESTful, aplicando buenas prácticas de programación"
         ></EducationBox>
       </div>
     </div>

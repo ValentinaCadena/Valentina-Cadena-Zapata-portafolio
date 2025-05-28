@@ -8,6 +8,11 @@ interface PortfolioModalInfoProps {
   image1?: string;
   image2?: string;
   image3?: string;
+  tech1?: string;
+  tech2?: string;
+  tech3?: string;
+  tech4?: string;
+  tech5?: string;
   onClose: () => void;
 }
 
@@ -19,6 +24,11 @@ const PortfolioModalInfo = ({
   image1,
   image2,
   image3,
+  tech1,
+  tech2,
+  tech3,
+  tech4,
+  tech5,
   onClose,
 }: PortfolioModalInfoProps) => {
   return (
@@ -43,9 +53,11 @@ const PortfolioModalInfo = ({
         <div className="mt-4">
           <h3 className="font-semibold text-[#2b2b2b]">Tecnologías usadas:</h3>
           <ul className="list-disc list-inside text-[#767676]">
-            <li>React</li>
-            <li>Tailwind CSS</li>
-            <li>Node.js</li>
+            <li>{tech1}</li>
+            <li>{tech2}</li>
+            <li>{tech3}</li>
+            <li>{tech4}</li>
+            <li>{tech5}</li>
           </ul>
         </div>
         <div className="grid grid-cols-2 gap-2 mt-4 text-[#767676]">

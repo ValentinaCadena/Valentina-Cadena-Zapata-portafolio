@@ -11,6 +11,11 @@ interface PortfolioCardProps {
   image1?: string;
   image2?: string;
   image3?: string;
+  tech1?: string;
+  tech2?: string;
+  tech3?: string;
+  tech4?: string;
+  tech5?: string;
 }
 
 const PortfolioCard = ({
@@ -21,7 +26,12 @@ const PortfolioCard = ({
   gitText,
   image1,
   image2,
-  image3
+  image3,
+  tech1,
+  tech2,
+  tech3,
+  tech4,
+  tech5,
 }: PortfolioCardProps) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -40,7 +50,7 @@ const PortfolioCard = ({
         <p className="text-[#767676] line-clamp-2">{text}</p>
         <p
           onClick={handleOpen}
-          className="text-yellow-500 underline hover:cursor-pointer hover:text-yellow-600 text-lg font-semibold"
+          className="text-violet-500 underline hover:cursor-pointer hover:text-violet-600 text-lg font-semibold"
         >
           {hypertext}
         </p>
@@ -55,6 +65,11 @@ const PortfolioCard = ({
           image1={image1}
           image2={image2}
           image3={image3}
+          tech1={tech1}
+          tech2={tech2}
+          tech3={tech3}
+          tech4={tech4}
+          tech5={tech5}
           onClose={handleClose}
         />
       )}

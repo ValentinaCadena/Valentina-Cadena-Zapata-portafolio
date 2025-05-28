@@ -14,40 +14,40 @@ const KnowledgeSection = () => {
       </div>
       <div className="grid grid-cols-3 gap-5">
         <KnowledgeBox
-          title="Web Development"
+          title="Desarrollo Web"
           text="Blog, E-Commerce"
           icon="tabler:device-desktop-code"
           iconColor="indigo"
         ></KnowledgeBox>
         <KnowledgeBox
-          title="UI/UX Design"
-          text="Mobile App, Website Design"
+          title="Diseño UI/UX"
+          text="Aplicaciones Móviles, Diseño de Sitios Web"
           icon="typcn:pencil"
           iconColor="indigo"
         ></KnowledgeBox>
         <KnowledgeBox
-          title="Sound Design"
-          text="Voice Over, Beat Making"
+          title="Diseño de Sonido"
+          text="Mezcla de voz, creación de Beats"
           icon="icon-park-outline:microphone"
           iconColor="indigo"
         ></KnowledgeBox>
         <KnowledgeBox
-          title="Game Design"
-          text="Character Design, Props & Objects"
+          title="Diseño de Videojuegos"
+          text="Diseño de Personajes, Propiedades & Objetos"
           icon="icon-park-outline:game-ps"
           iconColor="indigo"
         ></KnowledgeBox>
         <KnowledgeBox
-          title="Photography"
-          text="Portrait, Product Photography"
+          title="Fotografía"
+          text="Retrato, Producción de Fotografía"
           icon="icon-park-outline:success-picture"
           iconColor="indigo"
         ></KnowledgeBox>
         <KnowledgeBox
-          title="Advertising"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi."
+          title="Publicidad"
+          text="Compra ya en mercado libre y llévate hasta un 60% de descuento en pantallas y dispositivos de la marca Huawei..."
           iconColor="indigo"
-          redirecText="ORDER NOW >"
+          redirecText="ORDENA AHORA >"
         ></KnowledgeBox>
       </div>
     </div>

@@ -43,13 +43,13 @@ cd nombre-del-repo
 2. Instala las dependencias:
 
 npm install
-# o
+o
 yarn install
 
 3. Inicia el servidor de desarrollo:
 
 npm run dev
-# o
+o
 yarn dev
 
 4. Abre tu navegador en http://localhost:3000 para ver la aplicación.

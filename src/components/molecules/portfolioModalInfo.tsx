@@ -33,7 +33,7 @@ const PortfolioModalInfo = ({
 }: PortfolioModalInfoProps) => {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 overflow-auto">
-      <div className="bg-white p-8 rounded-2xl shadow-xl max-w-2xl w-full relative">
+      <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-xl w-[95%] sm:w-[90%] md:w-[80%] lg:w-[70%] xl:max-w-4xl xl:w-full relative max-h-[92vh] overflow-y-auto">
         <button
           onClick={onClose}
           className="absolute top-3 right-3 text-gray-500 hover:text-black"

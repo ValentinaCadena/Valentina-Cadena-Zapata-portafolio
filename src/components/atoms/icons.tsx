@@ -15,7 +15,7 @@ const Icons = ({ icon, url }: IconsProps) => {
       className="rounded-full bg-violet-400 p-2.5 hover:bg-violet-500 transition"
       onClick={redireccionar}
     >
-      <Icon icon={icon} width={25} height={25}></Icon>
+      <Icon icon={icon} className="sm:w-6 sm:h-6"></Icon>
     </button>
   );
 };

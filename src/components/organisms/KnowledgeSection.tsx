@@ -5,14 +5,14 @@ const KnowledgeSection = () => {
   return (
     <div>
       <div className="text-center">
-        <h1 className="text-[#2b2b2b] text-4xl font-bold">Conocimiento</h1>
-        <p className="text-[#767676] px-10 pb-10 pt-6 mx-72">
+        <h1 className="text-[#2b2b2b] text-xl sm:text-2xl lg:text-4xl font-bold">Conocimiento</h1>
+        <p className="text-[#767676] px-10 pb-10 pt-6 text-sm sm:text-base lg:mx-24 xl:mx-48">
           En ésta sección podrás ver todo el conocimiento que tengo dividido en
           diferentes áreas, todo en torno al desarrollo web y la creación de
           interfaces amigables para el usuario.
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 object-center md:grid-cols-2 lg:grid-cols-3 gap-5">
         <KnowledgeBox
           title="Desarrollo Web"
           text="Blog, E-Commerce"

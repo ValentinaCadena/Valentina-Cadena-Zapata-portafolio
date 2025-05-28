@@ -39,18 +39,18 @@ const PortfolioCard = ({
   const handleClose = () => setIsModalOpen(false);
 
   return (
-    <div className="relative bg-white max-w-sm w-1/3 h-[480px] flex-shrink-0 pt-8">
+    <div className="relative bg-white max-w-sm w-[90%] sm:w-[80%] md:w-2/3 lg:w-1/2 xl:w-1/3 lg:h-[420px] xl:h-[450px] flex-shrink-0 pt-8">
       <div className="w-full relative aspect-video">
         <Image src={image} alt={title} layout="fill" objectFit="contain"></Image>
       </div>
-      <div className="p-5 space-y-2">
-        <h1 className="text-[#2b2b2b] text-center text-lg font-semibold">
+      <div className="p-2 sm:p-4 lg:p-5 space-y-2">
+        <h1 className="text-[#2b2b2b] text-center text-base lg:text-lg font-semibold">
           {title}
         </h1>
-        <p className="text-[#767676] line-clamp-2">{text}</p>
+        <p className="text-[#767676] line-clamp-2 text-sm lg:text-base">{text}</p>
         <p
           onClick={handleOpen}
-          className="text-violet-500 underline hover:cursor-pointer hover:text-violet-600 text-lg font-semibold"
+          className="text-violet-500 underline hover:cursor-pointer hover:text-violet-600 text-base lg:text-lg font-semibold"
         >
           {hypertext}
         </p>

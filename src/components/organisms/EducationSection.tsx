@@ -5,8 +5,8 @@ const EducationSection = () => {
   return (
     <div>
       <div className="text-center">
-        <h1 className="text-[#2b2b2b] text-4xl font-bold">Educación</h1>
-        <p className="text-[#767676] px-10 pb-10 pt-6 mx-72">
+        <h1 className="text-[#2b2b2b] text-xl sm:text-2xl lg:text-4xl font-bold">Educación</h1>
+        <p className="text-[#767676] px-10 pb-10 pt-6 text-sm sm:text-base lg:mx-24 xl:mx-48">
           En ésta sección podrás ver un resumen de mis estudios realizados,
           instituciones donde me gradué y certificados que saqué.
         </p>
@@ -17,7 +17,7 @@ const EducationSection = () => {
           leftText="Estudiante"
           rightText="Oct 2019 - Actualidad"
           rightTitle="Ingeniería de Sistemas"
-          rightDescription="Ingeniero de Sistemas con formación en el diseño, desarrollo y gestión de soluciones tecnológicas, con enfoque en la optimización de procesos mediante software, redes y sistemas de información. "
+          rightDescription="Ingeniera de Sistemas con formación en el diseño, desarrollo y gestión de soluciones tecnológicas, con enfoque en la optimización de procesos mediante software, redes y sistemas de información. "
         ></EducationBox>
         <EducationBox
           className="border-y-2"
@@ -32,7 +32,7 @@ const EducationSection = () => {
           leftText="Estudiante"
           rightText="Abr 2025 - Actualidad"
           rightTitle="Certificado de Desarrollo Backend"
-          rightDescription="Curso de Desarrollo Backend enfocado en la construcción de la lógica del servidor, manejo de bases de datos y creación de API RESTful, aplicando buenas prácticas de programación"
+          rightDescription="Curso de Desarrollo Backend enfocado en la construcción de la lógica del servidor, manejo de bases de datos y creación de API RESTful, aplicando buenas prácticas de programación."
         ></EducationBox>
       </div>
     </div>

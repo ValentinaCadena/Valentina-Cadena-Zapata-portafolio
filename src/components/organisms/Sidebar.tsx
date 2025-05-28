@@ -5,7 +5,7 @@ import IconText from "../atoms/iconText";
 
 const Sidebar = () => {
   return (
-    <div className="flex flex-col text-left w-72 items-center p-10 gap-4 h-screen overflow-auto sticky top-0 left-0">
+    <div className="flex flex-col bg-white text-left w-72 min-w-72 items-center p-10 gap-4 h-screen overflow-auto sticky top-0 left-0">
       <div className="relative">
         <img
           src="/profPic.jpg"
@@ -16,7 +16,7 @@ const Sidebar = () => {
       </div>
       <div>
         <h2 className="text-lg text-black font-semibold">Valentina Cadena</h2>
-        <p className="text-gray-500 mt-2 text-center text-sm">
+        <p className="text-gray-500 mt-2 mb-10 text-center text-sm">
           Front-end Developer
         </p>
       </div>
@@ -37,14 +37,14 @@ const Sidebar = () => {
         </ul>
       </div>
       <div className="w-full">
-        <p className="font-semibold text-black text-center mb-2">Idiomas</p>
+        <p className="font-semibold text-black text-start mb-2 m-1">Idiomas</p>
         <div className="space-y-2 text-left text-gray-500">
           <ProgressBar name="Español" number={100} color="blue"></ProgressBar>
           <ProgressBar name="Inglés" number={80} color="blue"></ProgressBar>
         </div>
       </div>
       <div className="w-full border-t-2 border-b-2 py-4">
-        <p className="font-semibold text-black text-center mb-2">Lenguajes</p>
+        <p className="font-semibold text-black text-center mb-2 m-1">Lenguajes</p>
         <div className="space-y-2 text-left text-gray-500">
           <ProgressBar
             name="JavaScript"

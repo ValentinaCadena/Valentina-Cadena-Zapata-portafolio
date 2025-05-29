@@ -1,19 +1,31 @@
 import { Icon } from "@iconify/react";
 
+// Props que recibe el componente: una función para cerrar el modal
 interface ModalInfoProps {
   onClose: () => void;
 }
 
+// ModalInfo: Modal centrado que incluye un formulario básico de contratación
 const ModalInfo = ({ onClose }: ModalInfoProps) => {
   return (
+    // Fondo semitransparente que cubre toda la pantalla (posición fija)
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
+      {/* Contenedor principal del modal */}
       <div className="bg-white p-8 rounded-2xl shadow-xl max-w-md w-full relative">
-        <button onClick={onClose} className="absolute top-3 right-3 text-gray-500 hover:text-black">
+        {/* Botón de cierre, ubicado en la esquina superior derecha */}
+        <button
+          onClick={onClose}
+          className="absolute top-3 right-3 text-gray-500 hover:text-black"
+        >
           <Icon icon="mdi:close" className="text-xl" />
         </button>
 
-        <h2 className="text-2xl font-bold text-purple-700 mb-6">Formulario de Contratación</h2>
+        {/* Título del formulario */}
+        <h2 className="text-2xl font-bold text-purple-700 mb-6">
+          Formulario de Contratación
+        </h2>
 
+        {/* Formulario de entrada */}
         <form className="flex flex-col gap-4 text-black">
           <input
             type="text"

@@ -75,6 +75,9 @@ Repositorio oficial en GitHub
 Valentina Cadena
 Desarrolladora Front-end | Medellín, Colombia
 
+Para ver el proyecto en funcionamiento sigue este link:
+https://valentina-cadena-zapata-portafolio.vercel.app
+
 ¡Gracias por visitar este proyecto! 🚀
 
 

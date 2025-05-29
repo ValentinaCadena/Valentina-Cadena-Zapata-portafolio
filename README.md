@@ -23,12 +23,19 @@ El objetivo de este portafolio es mostrar de manera clara y profesional la infor
 ## 📦 Estructura del Proyecto
 
 /components
+
 /atoms → Componentes básicos reutilizables (botones, textos, íconos, etc.)
+
 /molecules → Combinaciones simples de átomos
+
 /organisms → Secciones completas de la interfaz
+
 /pages
+
 index.tsx → Página principal del portafolio
+
 /public → Imágenes y recursos estáticos
+
 /styles → Archivos de estilos globales
 
 
@@ -76,6 +83,7 @@ Valentina Cadena
 Desarrolladora Front-end | Medellín, Colombia
 
 Para ver el proyecto en funcionamiento sigue este link:
+
 https://valentina-cadena-zapata-portafolio.vercel.app
 
 ¡Gracias por visitar este proyecto! 🚀

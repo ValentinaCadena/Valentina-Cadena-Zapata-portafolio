@@ -1,40 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Portafolio Personal - Valentina Cadena
 
-## Getting Started
+Este es un proyecto desarrollado con [Next.js](https://nextjs.org), diseñado como un portafolio profesional para presentar el perfil, habilidades, conocimientos y proyectos de Valentina Cadena, desarrolladora Front-end.
 
-First, run the development server:
+## 🚀 Propósito del Proyecto
 
-```bash
+El objetivo de este portafolio es mostrar de manera clara y profesional la información relevante del perfil de Valentina, incluyendo:
+
+- Información personal y profesional
+- Habilidades técnicas y conocimientos
+- Formación académica
+- Proyectos destacados con detalles ampliables
+- Estilo visual atractivo y responsivo
+
+## 🖥️ Tecnologías Utilizadas
+
+- **Next.js** (React + SSR)
+- **Tailwind CSS** (para estilos utilitarios y diseño responsive)
+- **Arquitectura Atomic Design** (organización en átomos, moléculas, organismos)
+- **Iconify** para íconos vectoriales
+- **TypeScript** para tipado estático
+
+## 📦 Estructura del Proyecto
+
+/components
+/atoms → Componentes básicos reutilizables (botones, textos, íconos, etc.)
+/molecules → Combinaciones simples de átomos
+/organisms → Secciones completas de la interfaz
+/pages
+index.tsx → Página principal del portafolio
+/public → Imágenes y recursos estáticos
+/styles → Archivos de estilos globales
+
+
+## ▶️ ¿Cómo ejecutar el proyecto localmente?
+
+1. Clona el repositorio:
+
+``bash
+git clone https://github.com/tu-usuario/nombre-del-repo.git
+cd nombre-del-repo
+
+2. Instala las dependencias:
+
+npm install
+# o
+yarn install
+
+3. Inicia el servidor de desarrollo:
+
 npm run dev
-# or
+# o
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Abre tu navegador en http://localhost:3000 para ver la aplicación.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+🌐 Despliegue
+Este proyecto puede ser desplegado fácilmente en plataformas como Vercel, ideal para aplicaciones Next.js.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+📄 Notas adicionales
+La interfaz es completamente responsiva, adaptándose a diferentes resoluciones de pantalla.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+Algunas secciones del portafolio permiten interacción como la expansión de detalles mediante modales.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Los datos están integrados directamente en los componentes para simplicidad y control completo.
 
-## Learn More
+📚 Recursos útiles sobre Next.js
+Documentación oficial de Next.js
 
-To learn more about Next.js, take a look at the following resources:
+Guía para aprender Next.js
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+Repositorio oficial en GitHub
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🙋‍♀️ Autora
+Valentina Cadena
+Desarrolladora Front-end | Medellín, Colombia
 
-## Deploy on Vercel
+¡Gracias por visitar este proyecto! 🚀
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+---
+
+Solo reemplaza `https://github.com/tu-usuario/nombre-del-repo.git` con la URL real de tu repositorio si lo deseas, y estará perfecto.
